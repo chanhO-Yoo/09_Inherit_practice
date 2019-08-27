@@ -16,6 +16,6 @@ public class Vvip extends Member{
 	//이자 계산 메서드
 	@Override
 	public double getInterestPoint() {
-		return getPoint()*0.15;
+		return super.getPoint()*0.15;
 	}
 }

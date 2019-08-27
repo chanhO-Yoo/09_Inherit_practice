@@ -39,7 +39,9 @@ public class Member {
 	public int getPoint() {
 		return point;
 	}
+	
+	//이자 계산 메서드
 	public double getInterestPoint() {
-		return point;
+		return point*0.0;
 	}
 }

@@ -15,9 +15,13 @@ public class Run {
 		/*
 		 * 실습문제 : shape를  상속받은 Rectangle클래스를 작성하세요
 		 */
-		Rectangle rect = new Rectangle(new Point(0,0), 200, 100);
+		Rectangle rect = new Rectangle(new Point(100,100), 200, 100);
 		rect.draw();
 		System.out.println("사각형의 너비는 "+rect.getArea()+"입니다.");
+		
+		//toString
+		System.out.println(new Circle().toString());
+		System.out.println(new Point().toString());
 	}
 
 }

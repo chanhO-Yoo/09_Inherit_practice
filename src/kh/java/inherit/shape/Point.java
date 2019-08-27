@@ -28,5 +28,15 @@ public class Point {
 		this.y = y;
 	}
 	
+	/**
+	 * Object메서드의 toString() 오버라이드
+	 * 
+	 * 명시적으로 호출 / 객체가 문자열로 표현될 때 사용
+	 * 보통 필드 값을 표현하도록 override한다.
+	 */
+	@Override
+	public String toString() {
+		return "("+x+", "+y+")";
+	}
 	
 }

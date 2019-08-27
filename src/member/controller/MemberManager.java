@@ -54,5 +54,7 @@ public class MemberManager {
 		for(int i=0;i<countVvip;i++) {
 			System.out.println(vvipMember[i].getName()+"\t"+vvipMember[i].getGrade()+"\t"+vvipMember[i].getPoint()+"\t"+vvipMember[i].getInterestPoint());
 		}
+		System.out.println("---------------------------------------------------");
+		silverMember[1].test();
 	}
 }
